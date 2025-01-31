@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- daisyui   -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- google font    -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+  <!-- your kit             -->
+  <script src="https://kit.fontawesome.com/0279dcde18.js" crossorigin="anonymous"></script>
+  <style>
+    .sora {
+      font-family: "Sora", serif;
+    }
+
+    .hide {
+      visibility: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- ....................header-section  ............ -->
+  <header class="bg-gradient-to-b from-[#fdfdfc] to-[#f5f3ee]">
+    <nav class="container mx-auto">
+      <div class="navbar">
+        <div class="navbar-start">
+          <img class="h-10" src="c2-assets/logo-header.png" alt="">
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 invisible lg:visible">
+            <li><a>Product</a></li>
+            <li><a>Services</a></li>
+            <li><a>Contact us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end gap-x-2">
+          <i class="fa-solid fa-magnifying-glass invisible lg:visible"></i>
+          <i class="fa-solid fa-cart-shopping invisible lg:visible"></i>
+          <button class="px-4 py-1 border border-green-600 rounded-lg invisible lg:visible">Login</button>
+          <button class="px-4 py-1 bg-green-600 text-white rounded-lg invisible lg:visible">Register</button>
+          <i class="fa-solid fa-bars lg:collapse"></i>
+        </div>
+      </div>
+    </nav>
+    <!-- header-card section    -->
+    <div class="space-y-5 mt-20 mx-10 lg:mx-0">
+      <h1 class="font-bold text-center text-3xl sora">Freshness <span class="text-green-600">You Can</span> <br> <span
+          class="text-green-600">Count</span> On, Prices You’ll Love!</h1>
+      <p class="text-center lg:text-[12px]">Shop your daily essentials at unbeatable prices. From fresh produce to
+        pantry <br> staples, we’ve got you covered every day!</p>
+    </div>
+    <div>
+      <img class="lg:w-6/12 mx-auto" src="c2-assets/hero-vegetables.png" alt="">
+    </div>
+  </header>
+  <main>
+    <!-- ..............service section     -->
+    <div class="container mx-auto">
+      <div class="font-bold text-2xl text-green-500 mt-10 mx-5 lg:mx-0 md:mx-0">
+        <h1>Service</h1>
+      </div>
+      <div class="grid lg:flex md:flex justify-center mt-10 gap-8 text-center">
+        <div class="border  p-10 bg-[#efebe3] rounded-lg">
+          <div class="avatar">
+            <div class="w-36 rounded-full  bg-white">
+              <div class="p-5"><img src="c2-assets/service.png" /></div>
+            </div>
+          </div>
+          <h1 class="font-bold">24/7 Services </h1>
+          <p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt</p>
+        </div>
+        <div class="border p-10 bg-[#efebe3] rounded-lg">
+          <div class="avatar">
+            <div class="w-36 rounded-full  bg-white">
+              <div class="p-5"><img src="c2-assets/delivery.png" /></div>
+            </div>
+          </div>
+          <h1 class="font-bold">Fast Delivery</h1>
+          <p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt</p>
+        </div>
+        <div class="border  p-10 bg-[#efebe3] rounded-lg">
+          <div class="avatar">
+            <div class="w-36 rounded-full  bg-white">
+              <div class="p-5"><img src="c2-assets/healthy.png" /></div>
+            </div>
+          </div>
+          <h1 class="font-bold">Healthy Products</h1>
+          <p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt</p>
+        </div>
+      </div>
+    </div>
+    <!-- ..........popular-product-section...........  -->
+    <section class="border  bg-[#EFEBE3] mt-20">
+      <div class="mt-10 text-green-500 font-bold ml-5"><h1>Popular Service</h1></div>
+      <!-- main-div   -->
+      <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-10 p-5 mb-10">
+        <div class="border  bg-gradient-to-r from-[#53db3a] to-[#daf7d4] px-10 lg:px-12 md:px-24 pt-8 rounded-lg">
+          <!-- 1st-div -->
+          <h1 class="font-bold text-white text-2xl">30% Off</h1>
+          <p class="font-bold w-72">Discover a world of treats, toys, and essentials handpicked for</p>
+          <button class="bg-white px-5 py-2 rounded-lg mt-1 font-bold">Buy Now</button>
+          <img class="w-3/5 mx-28 lg:mx-44 md:mx-40" src="c2-assets/vegetable-offer.png" alt="">         
+        </div>
+
+        <div class="border lg:grid-cols-3 md:grid-cols-2 grid grid-cols-2 gap-5">
+          <!-- 2nd div  -->
+          <div class="border rounded-lg flex bg-white items-center justify-center w-42 ">
+            <!-- grid-box-1  -->
+            <div class="bg-[#EFEBE3] rounded-lg w-12">
+              <img src="c2-assets/onion.png" alt="">
+            </div>
+            <div class="ml-2">
+              <h1 class="text-[12px]"><i class="fa-solid fa-star text-yellow-500"></i>4.5</h1>
+              <h1 class="font-bold text-[15px]">Onion 1 kg</h1>
+              <h1 class="text-[12px]">$20.44</h1>
+            </div>
+          </div>
+          <!-- grid-box-2  -->
+          <div class="border rounded-lg flex bg-white items-center justify-center w-42 ">
+            <div class="bg-[#EFEBE3] rounded-lg w-12">
+              <img src="c2-assets/tomato.png" alt="">
+            </div>
+            <div class="ml-2">
+              <h1 class="text-[12px]"><i class="fa-solid fa-star text-yellow-500"></i>4.5</h1>
+              <h1 class="font-bold text-[14px]">Tomato 4 kg</h1>
+              <h1 class="text-[12px]">$27.44</h1>
+            </div>
+          </div>
+          <!-- grid-box- 3 -->
+          <div class="border rounded-lg flex bg-white items-center justify-center w-42 ">
+            <div class="bg-[#EFEBE3] rounded-lg w-12">
+              <img src="c2-assets/potato.png" alt="">
+            </div>
+            <div class="ml-2">
+              <h1 class="text-[12px]"><i class="fa-solid fa-star text-yellow-500"></i>4.5</h1>
+              <h1 class="font-bold text-[15px]">Potato 500 g</h1>
+              <h1 class="text-[12px]">$20.44</h1>
+            </div>
+          </div>
+          <!-- grid-box-4  -->
+          <div class="border rounded-lg flex bg-white items-center justify-center w-42 ">
+            <div class="bg-[#EFEBE3] rounded-lg w-12">
+              <img src="c2-assets/tomato.png" alt="">
+            </div>
+            <div class="ml-2">
+              <h1 class="text-[12px]"><i class="fa-solid fa-star text-yellow-500"></i>4.5</h1>
+              <h1 class="font-bold text-[15px]">Tomato 200 g</h1>
+              <h1 class="text-[12px]">$25.44</h1>
+            </div>
+          </div>
+          <!-- grid-box-5  -->
+          <div class="border rounded-lg flex bg-white items-center justify-center w-42 ">
+            <div class="bg-[#EFEBE3] rounded-lg w-12">
+              <img src="c2-assets/potato.png" alt="">
+            </div>
+            <div class="ml-2">
+              <h1 class="text-[12px]"><i class="fa-solid fa-star text-yellow-500"></i>4.5</h1>
+              <h1 class="font-bold text-[15px]">Potato 500 g</h1>
+              <h1 class="text-[12px]">$20.44</h1>
+            </div>
+          </div>
+          <!-- gridbox-6  -->
+          <div class="border rounded-lg flex bg-white items-center justify-center w-42 ">
+            <div class="bg-[#EFEBE3] rounded-lg w-12">
+              <img src="c2-assets/tomato.png" alt="">
+            </div>
+            <div class="ml-2">
+              <h1 class="text-[12px]"><i class="fa-solid fa-star text-yellow-500"></i>4.5</h1>
+              <h1 class="font-bold text-[15px]">Totato 1 kg</h1>
+              <h1 class="text-[12px]">$20.44</h1>
+            </div>
+          </div>
+          <!-- grid box-7  -->
+          <div class="border rounded-lg flex bg-white items-center justify-center w-42 ">
+            <div class="bg-[#EFEBE3] rounded-lg w-12">
+              <img src="c2-assets/onion.png" alt="">
+            </div>
+            <div class="ml-2">
+              <h1 class="text-[12px]"><i class="fa-solid fa-star text-yellow-500"></i>4.5</h1>
+              <h1 class="font-bold text-[15px]">Onion 100 g</h1>
+              <h1 class="text-[12px]">$20.44</h1>
+            </div>
+          </div>
+          <!-- gridbox-8  -->
+          <div class="border rounded-lg flex bg-white items-center justify-center w-42 ">
+            <div class="bg-[#EFEBE3] rounded-lg w-12">
+              <img src="c2-assets/potato.png" alt="">
+            </div>
+            <div class="ml-2">
+              <h1 class="text-[12px]"><i class="fa-solid fa-star text-yellow-500"></i>4.5</h1>
+              <h1 class="font-bold text-[15px]">Potato 500 g</h1>
+              <h1 class="text-[12px]">$20.44</h1>
+            </div>
+          </div>
+          <!-- grid-box-9  -->
+          <div class="border rounded-lg flex bg-white items-center justify-center w-42 invisible lg:visible md:visible ">
+            <div class="bg-[#EFEBE3] rounded-lg w-12">
+              <img src="c2-assets/Onion.png" alt="">
+            </div>
+            <div class="ml-2">
+              <h1 class="text-[12px]"><i class="fa-solid fa-star text-yellow-500"></i>4.5</h1>
+              <h1 class="font-bold text-[15px]">Onion 400 g</h1>
+              <h1 class="text-[12px]">$20.44</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-slate-00">
+      <div class="mt-10 text-green-500 font-bold text-2xl lg:ml-48 ml-10"><h1>Arrival & Offers</h1></div>
+      <div class="grid grid-cols-1 lg:grid-cols-2 container mx-auto gap-5 p-10 mr-10">
+        <div class=" w-full flex justify-center items-center bg-[#115414] text-center h-48 rounded-lg ">
+          <div class="ml-2">
+            <img class="w-40 mb-3" src="c2-assets/dawat-logo.png" alt="">
+            <button class="text-white text-sm px-5 py-2 mb-3 rounded-lg bg-[#63b76d]">Cook Exotic Dishes</button>
+            <h1 class="text-white">UP to <span class="font-bold">20% OFF</span></h1>
+          </div>
+          <div class="w-52">
+            <img src="c2-assets/dawat-mock-up.png" alt="">
+          </div>
+          
+        </div>
+        <div class="border rounded-lg border-blue-700  flex lg:w-80 h-48 justify-center space-x-14 bg-[#102861] ">
+          <div>
+            <img class="w-12 ml-3 mb-5" src="c2-assets/india-gate-logo.png" alt="">
+            <button class="text-white bg-[#2a4d97] px-3 py-2 ml-3 rounded-lg text-sm mb-4">World’s No.1 Rice</button>
+            <h1 class="text-white ml-3">UP to <span class="font-bold">40% OFF</span></h1>
+          </div>
+          <div>
+            <img class="w-28" src="c2-assets/india-gate-mock-up.png" alt="">
+          </div>
+
+        </div>
+      </div>      
+    </section>
+  </main>
+
+  <section>
+    <div class="container mx-auto w-72 h-80 lg:w-full lg:h-56  bg-[#efebe3] lg:-mb-32 lg:z-10 lg:relative z-10 relative -mb-20 grid grid-cols-1 lg:flex justify-center items-center lg:space-x-48 rounded-lg">
+      <div>
+        <img class="w-36 mx-auto lg:w-56" src="c2-assets/vegetable-busket.png" alt="">
+      </div>
+      <div class="text-center lg:text-start">
+        <h1 class="font-bold text-xl mb-3 lg:text-black text-green-600">Get Grocery News!</h1>
+        <p class="font-bold text-sm mb-3">Exclusive training tips, ticks, product deals and more.</p>
+        <input class="pr-16 lg:pr-28 py-2 rounded-lg mb-3" type="Enter email...." placeholder="  Enter email...."><br>
+        <button class="bg-[#179800] px-4 py-2 rounded-lg text-white  font-bold ">Subscribe</button>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="w-full  border  bg-[#179800]  z-0">
+      <div class="grid lg:grid-cols-3 mt-52 mb-28 lg:mx-24 space-y-10 p-5 lg:p-0 lg:space-x-56">
+        <div>
+          <img class="w-24 mt-6" src="c2-assets/logo-footer.png" alt="">
+          <p class="text-white">Discover a world of treats, toys, and <br> essentials handpicked for your furry friends</p>
+        </div>
+        <div class="text-white">
+          <h1>Product</h1>
+          <h1>Services</h1>
+          <h1>Contact us</h1>
+        </div>
+        <div class="text-white mt-5 space-x-1">
+          <h1>Follow Us</h1>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>         
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
